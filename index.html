@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>andrew coffee</title>
+
+    <!--icon website--->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <!---framework bulma--->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
+    />
+    <!---external css--->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar has-shadow is-dark">
+      <!---logo/brand--->
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          <img
+            src="./images/mug_coffee.png"
+            alt="andrew_coffee.png"
+            class="py-2 px-2"
+          />
+        </a>
+        <p>andrew coffee</p>
+        <a class="navbar-burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+      <!---menu-menunya--->
+      <div class="navbar-menu" id="nav-links">
+        <div class="navbar-end">
+          <a
+            class="navbar-item has-background-link-white has-text-link-dark"
+            href="#"
+            >My Account</a
+          >
+          <a
+            class="navbar-item has-background-link-white has-text-link-dark"
+            href="#"
+            >shopping cart (0)</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!---dibawah pilihan menu--->
+    <div class="section pt-4 pb-0 margin-bawah">
+      <nav class="breadcrumb has-arrow-separator">
+        <ul>
+          <a href="#"><li class="is-active">Andrew coffee</li></a>
+          <li>-></li>
+          <a href="#"><li class="is-active">Coffee lists</li></a>
+          <li>-></li>
+          <a href="#"><li class="is-active">luwak coffee 1</li></a>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- informasi produk yang dipilih--->
+    <section class="section has-background-dark has-text-success-light">
+      <div class="container">
+        <div class="column is-vcentered is-multiline">
+          <div class="column is-6-tablet is-3-desktop">
+            <h1
+              class="is-size-3-mobile is-size-1-desktop title has-text-success-light"
+            >
+              Luwak
+            </h1>
+            <h2
+              class="is-size-3-mobile is-size-2-desktop subtitle has-text-success-light"
+            >
+              coffee 1
+            </h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+              velit eius hic itaque libero illum quod sunt amet quasi
+              necessitatibus iure repellat magni praesentium tempore quos
+              quisquam, facilis ducimus modi.
+            </p>
+          </div>
+        </div>
+        <div class="column is-6-tablet is-5-desktop has-text-centered">
+      <img src="./images/product.png" alt="" />
+      </div>
+    </section>
+  </body>
+</html>
