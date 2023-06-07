@@ -162,7 +162,7 @@
           <!---menu signup for user-->
           <div class="column is-5-tablet">
             <!---kotak pesannya-->
-            <div class="message is-dark">
+            <div class="message is-grey">
               <div class="message-header">
                 <p>Dapatkan kenikmatan lebih dengan Andrew coffee</p>
               </div>
@@ -174,7 +174,10 @@
                   suscipit. Inventore repellendus minima tenetur vitae!
                 </p>
                 <div class="has-text-centered">
-                  <button class="button mt-5" id="signup">
+                  <button
+                    class="button mt-5 has-background-primary has-text-white"
+                    id="signup"
+                  >
                     <a href="#">Daftar</a>
                   </button>
                 </div>
@@ -194,7 +197,7 @@
         <!---disini untuk keterangan harganya dan nama produknya dan image--->
         <div class="mt-5 columns is-centered is-8 is-variable">
           <!---produk 1-->
-          <div class="columm is-4-tablet is-3-desktop">
+          <div class="column is-4-tablet is-3-desktop">
             <div class="card">
               <div class="card-image has-text-centered px-6">
                 <img src="./images/p1.png" alt="Product1.png" />
@@ -210,13 +213,13 @@
               </div>
               <footer class="card-footer has-background-primary">
                 <p class="card-footer-item">
-                  <a class="has-text-grey" href="#">Lihat</a>
+                  <a class="has-text-white" href="#">Lihat</a>
                 </p>
               </footer>
             </div>
           </div>
           <!---produk 2-->
-          <div class="columm is-4-tablet is-3-desktop">
+          <div class="column is-4-tablet is-3-desktop">
             <div class="card">
               <div class="card-image has-text-centered px-6">
                 <img src="./images/p2.png" alt="Product2.png" />
@@ -232,7 +235,7 @@
               </div>
               <footer class="card-footer has-background-primary">
                 <p class="card-footer-item">
-                  <a class="has-text-grey" href="#">Lihat</a>
+                  <a class="has-text-white" href="#">Lihat</a>
                 </p>
               </footer>
             </div>
@@ -240,5 +243,65 @@
         </div>
       </div>
     </section>
+
+    <!---pop up for sign up button-->
+    <div class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content has-background-white-py-5-px-5">
+        <h3 class="title mb-6 has-text-white">Let's join</h3>
+        <form>
+          <div class="field">
+            <label class="label">Nama : </label>
+            <div class="control">
+              <input
+                class="input"
+                type="text"
+                placeholder="Your name"
+                required
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Email </label>
+            <div class="control">
+              <input
+                class="input"
+                type="text"
+                placeholder="Your email"
+                required
+              />
+              <span class="icon is-small is-left"
+                ><i class="fas fa-envelope"></i
+              ></span>
+            </div>
+          </div>
+
+          <!---tombol signup atau daftar-->
+          <div class="field">
+            <div class="control">
+              <label class="checkbox">
+                <input type="checkbox" /> Saya setuju dengan
+                <a href="#">Persyaratan & kondisi</a>
+              </label>
+            </div>
+          </div>
+          <div class="mt-6 has-text-centered">
+            <button class="button is-warning">Sign up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!---footer--->
+    <footer class="footer mt-5">
+      <div class="content has-text-centered has-text-weight-semibold">
+        <p>
+          <a target="_blank" href="#"
+            >Andrew Coffee | @2023 All Right Reserved</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
