@@ -1,13 +1,13 @@
 // tombol sign-upnya
 const signupbutton = document.querySelector("#signup");
-const modelBg = document.querySelector(".modal-background");
+const modalBg = document.querySelector(".modal-background");
 const modal = document.querySelector(".modal");
 
 signupbutton.addEventListener("click", () => {
-  modal.classList.add("is active");
+  modal.classList.add("is-active");
 });
 
-modalbg.addEventListener("click", () => {
+modalBg.addEventListener("click", () => {
   modal.classList.remove("is-active");
 });
 
